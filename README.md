@@ -3,9 +3,9 @@
 ## BUILD IMAGE
 
 ```linux
-git clone https://github.com/hteen/docker-ngrok.git
+git clone https://github.com/tingod/docker-ngrok.git
 cd docker-ngrok
-docker build -t hteen/ngrok .
+docker build -t tingod/ngrok .
 ```
 
 ## RUN
@@ -15,5 +15,5 @@ docker build -t hteen/ngrok .
 ```linux
 docker run -idt --name ngrok-server \
 -v /data/ngrok:/myfiles \
--e DOMAIN='tunnel.hteen.cn' hteen/ngrok /bin/sh /server.sh
+-e DOMAIN='n.v2c.cc' tingod/ngrok /bin/sh /server.sh
 ```
