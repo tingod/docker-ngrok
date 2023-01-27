@@ -1,4 +1,4 @@
-FROM golang:1.17.8-alpine
+FROM golang:1.18.10-alpine
 MAINTAINER pugus <tingodl@gmail.com>
 
 RUN apk add --no-cache git make openssl
